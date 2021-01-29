@@ -1,4 +1,5 @@
 import React from 'react';
+// import Componente2 from './componente-2';
 
 const MiComponente = () => {
         let receta = {
@@ -9,7 +10,7 @@ const MiComponente = () => {
 
         return (
             <div>
-                <h1>Hola, soy el componente llamado: MiComponente</h1>
+                {/* <Componente2 /> */}
                 <h2>{'receta: ' + receta.nombre}</h2>
                 <h3>{'ingredientes: ' + receta.ingredientes}</h3>
                 <h3>{'calorias: ' + receta.calorias}</h3>
